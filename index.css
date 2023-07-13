@@ -3,13 +3,11 @@
   inherits: true;
   initial-value: rgb(255, 55, 55);
 }
-
 @property --color-2 {
   syntax: "<color>";
   inherits: true;
   initial-value: rgb(255, 146, 96);
 }
-
 html {
   height: 100%;
 }
@@ -55,4 +53,4 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}/*# sourceMappingURL=index.css.map */
