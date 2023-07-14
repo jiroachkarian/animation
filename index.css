@@ -54,4 +54,27 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.background-split {
+  border-bottom: 4rem solid rgb(212, 58, 58);
+  border-left: 1.75rem solid transparent;
+  border-right: 1.75rem solid transparent;
+  border-radius: 4.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 1rem;
+  width: 14rem;
+}
+
+.d-f {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-s {
+  box-shadow: 0 2.75rem 20px -20px rgba(0, 0, 0, 0.349);
 }/*# sourceMappingURL=index.css.map */
