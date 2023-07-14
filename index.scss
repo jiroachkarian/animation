@@ -73,10 +73,46 @@ p {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
 }
 
 .b-s {
   box-shadow: 0 2.75rem 20px -20px rgba(0, 0, 0, 0.349);
+}
+
+.fall {
+  display: flex;
+  flex-direction: column-reverse;
+
+  transform: translateY(0);
+  animation-name: falling;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes falling {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50vh);
+  }
+}
+
+.animated-image {
+  position: absolute;
+  z-index: -1;
+  top: -29px;
+  animation: myAnimation 2s;
+}
+
+@keyframes myAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

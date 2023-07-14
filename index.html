@@ -7,11 +7,25 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="d-f">
-      <div class="background-split b-s">
-        <div class="container">
-          <div class="button">
-            <p>click</p>
+    <script>
+      const image = document.getElementById("myImage");
+
+      image.addEventListener("animationend", function () {
+        image.style.visibility = "visible";
+      });
+    </script>
+    <div class="fall">
+      <div class="d-f">
+        <img
+          src="/img/images-removebg-preview.png"
+          class="animated-image"
+          id="myImage" />
+
+        <div class="background-split b-s">
+          <div class="container">
+            <div class="button">
+              <p>click</p>
+            </div>
           </div>
         </div>
       </div>
