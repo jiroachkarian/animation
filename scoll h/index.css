@@ -57,8 +57,6 @@ body .container section h1 {
 
 ::-webkit-scrollbar-track {
   background: hsl(120, 0%, 47%);
-  border-radius: 100vw;
-  margin-block: 1em;
 }
 
 ::-webkit-scrollbar-thumb {
