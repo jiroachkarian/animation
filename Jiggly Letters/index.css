@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+width: 5em;
+height: 5em;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background: black;
+    transform: perspective(1em) rotateX(40deg);
+    filter: blur(2em);
+}
